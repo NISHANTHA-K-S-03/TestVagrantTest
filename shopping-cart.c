@@ -44,7 +44,7 @@ void main(){
         single_total[i] = (unit_price[i]+ind_gst_unit_amt[i]) * quantity[i];
         }
         else{
-            unit_price[i] = unit_price[i] * 1.05;
+            unit_price[i] = unit_price[i] * 0.95;
             single_total[i] = (unit_price[i]+ind_gst_unit_amt[i]) * quantity[i];
         }
     }
